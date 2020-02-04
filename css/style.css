@@ -1,0 +1,31 @@
+.bg {
+    background-color: #FFFFFF;
+    width: 48px;
+    height: 48px;
+  }
+
+.colorNavbar{ 
+    background-color: #29B6FF;
+}
+.logo {
+    background-color: #FFFFFF;
+  }
+.font{
+  font-size: 12px;
+}
+.navSize{
+  width: 1280px;
+  height:60px;
+}
+.lineStyle{
+  background-color: #FFFFFF;
+  box-shadow: inset 0 -1px 0 0 #CAD4DC;
+  width: 1280px;
+  height: 54px;
+}
+.fundo{
+  background-color: #CAD4DC;
+}
+.pos{
+  margin-top: 50px;
+}
