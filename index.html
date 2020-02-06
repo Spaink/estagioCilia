@@ -13,7 +13,7 @@
   </head>
   <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top colorNavbar navSize">   
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top colorNavbar navBar navSize" >   
             <a href="#"></a>
                 <img src="assets/logoCilia.png" width="121" height="32" alt="">
             </a>
@@ -21,25 +21,58 @@
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-end navSize" id="navbarNav">
-              <img src="assets/2x/baseline_help_black_18dp.png" width="20" height="20" alt="">       
-              <a href="#">Ajuda</a> 
-              <img src="assets/2x/baseline_speaker_notes_black_18dp.png" width="24" height="24" alt="">         
-              <a href="#">Suporte via chat</a>
-              <a href="#">Diego Auto/RE - TESTE <br><span class="font">Administrador</span></a>
-              <img src="assets/2x/baseline_account_circle_black_18dp.png" width="32" height="32" alt="">  
-              <img src="assets/2x/baseline_home_black_18dp.png" width="32" height="32" alt="">      
+              <img src="assets/baseline_help_black_18dp.png" width="20" height="20" alt="">       
+              <span class="help">Ajuda</span>
+              <span class="line">|</span>
+              <img src="assets/baseline_speaker_notes_black_18dp.png" class="img" width="24" height="24" alt="">         
+              <span class="support">Suporte via chat</span>
+              <span class="line">|</span>
+              <span class = "admin">Diego Auto/RE - TESTE <br><span class="font">Administrador</span></span>
+              <img src="assets/baseline_account_circle_black_18dp.png" width="32" height="32" alt="">  
+              <img src="assets/baseline_home_black_18dp.png" width="32" height="32" alt="">      
             </div>
         </nav>
     </header>
     <main>
-        <div>
-          <span>Olá mundo</span>
+    <div class="page-color justify-content-center">
+        <div class=" row d-flex lineStyle">
+          <ul class="list-group list-group-flush ">
+            <li class="list-group-item"><span class="page-test ">Início > Página Teste</span></li>
+          </ul>
         </div>
-    </main>
+        <div class = "row d-flex justify-content-center tall">
+            <figure class="highcharts-figure mask">
+              <div id="container"></div>
+            </figure>
+        </div>
+        <div class="row d-flex justify-content-center">
+              <div class = " col-6 justify-content-center">
+                  <ul class="list-group list-group-flush bg2">
+                    <li class="list-group-item"><img src="assets/baseline_drive_eta_black_18dp.png" width="18" height="16" alt=""><span class="vehicle">Veículo</span></li>
+                    <li class="list-group-item"><img src="assets/logo_vw.png" width="40" height="40" alt=""><span class="volkswagen">VOLKSWAGEN POLO (2018) COMFORTLINE 200 TSI 1.0 TSI 2018</span></li>
+                    <li class="list-group-item itens"><img src="assets/logo_vw.png" width="40" height="40" alt=""><span class="volkswagen">VOLKSWAGEN POLO (2018) COMFORTLINE 200 TSI 1.0 TSI 2018</span></li>
+                    <li class="list-group-item"><img src="assets/logo_vw.png" width="40" height="40" alt=""><span class="volkswagen">VOLKSWAGEN POLO (2018) COMFORTLINE 200 TSI 1.0 TSI 2018</span></li>
+                    <li class="list-group-item itens"><img src="assets/logo_vw.png" width="40" height="40" alt=""><span class="volkswagen">VOLKSWAGEN POLO (2018) COMFORTLINE 200 TSI 1.0 TSI 2018</span></li>
+                  </ul>
+              </div>
+              <div class =  "col-6 justify-content-center">
+                  <ul class="list-group list-group-flush bg3">
+                    <li class="list-group-item"><img src="assets/baseline_location_on_black_18dp.png" width="14" height="20" alt=""><span class="location">Localização</span></li>
+                  </ul>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15287.329142921102!2d-49.263559!3d-16.685274!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x616a06459c0a17c8!2sCilia%20Tecnologia!5e0!3m2!1spt-BR!2sbr!4v1580848432929!5m2!1spt-BR!2sbr" width="610" height="260" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+              </div>
+        </div>
+    </div>
+  </main>
     <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/export-data.js"></script>
+    <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+    <script src="js/chart.js"></script>
   </body>
 </html>
